@@ -34,6 +34,7 @@ mongoose.connection.on("connected", () => {
 api.use(cookieParser());
 api.use(express.json());
 api.use(cors());
+// api.use(express.static("public"));
 
 // route middlewares
 api.use("/auth", authRoute);
