@@ -6,9 +6,4 @@ const router = express.Router();
 
 // EDIT AUTHED USER INFO
 
-router.get("/", (req, res, next) => {
-    res.send("user working");
-});
-
-
 export default router;
